@@ -19,7 +19,7 @@ public class ProductMenu {
     ArrayList<Product> product = new ArrayList<>();// k t ds 
     int option;
     Scanner sc = new Scanner(System.in);
-    do{
+    do{// đưa vậy thì ko đúng đưa như a vừa làm mà nó ko dc 
         showMenu();
         System.out.println("Nhập lựa chọn của bạn :");
         option =Integer.parseInt(sc.nextLine());
